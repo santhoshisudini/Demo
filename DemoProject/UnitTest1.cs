@@ -1,35 +1,35 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support;
 using OpenQA.Selenium.Chrome;
 namespace DemoProject
 {
     [TestFixture]
     public class UnitTest1
     {
-       IWebDriver driver;
-
+        IWebDriver driver;
         [SetUp]
-        public void startBrowser()
+        public void Initialize()
         {
             driver = new ChromeDriver();
         }
-
-        [Test]
-        public void test()
+        [Test,Order(1)]
+        public void CheckpageTitle()
         {
-            driver.Url = "https://www.google.com";
-         string title=  driver.Title;
+            driver.Url = "https://dynamics.microsoft.com/en-us/";
+            Assert.AreEqual(driver.Title,"Microsoft Dynamics 365: Intelligent Business Applications");
+        }
+        [Test,Order(2)]
+        public void CheckpageStatus()
+        {
+            driver.Url = "https://dynamics.microsoft.com/en-us/heloo";
+            Assert.AreEqual(driver.Title,"Page Not Found | Microsoft Dynamics 365");
         }
 
         [TearDown]
-        public void closeBrowser()
+        public void EndTest()
         {
             driver.Close();
         }
-
     }
    }
 

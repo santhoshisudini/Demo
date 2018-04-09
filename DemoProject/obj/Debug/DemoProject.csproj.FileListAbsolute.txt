@@ -1,6 +1,5 @@
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\DemoProject.dll
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\DemoProject.pdb
-c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\nunit.framework.dll
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\WebDriver.dll
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\WebDriver.Support.dll
@@ -8,7 +7,6 @@ c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\nunit.framework.xml
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\WebDriver.xml
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\WebDriver.Support.xml
-c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\obj\Debug\DemoProject.csprojResolveAssemblyReference.cache
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\obj\Debug\DemoProject.dll
 c:\users\v-sasudi\documents\visual studio 2015\Projects\DemoProject\DemoProject\obj\Debug\DemoProject.pdb
